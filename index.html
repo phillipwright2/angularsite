@@ -1,0 +1,236 @@
+d<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Example - example-example11-production</title>
+  <link rel="stylesheet" type="text/css" href="/css/animate.css">
+
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.1/angular.min.js"></script>
+  <script src="script.js"></script>
+  
+
+  
+</head>
+<body  ng-app="docsSimpleDirective" class="animate">
+<div ng-controller="Controller">
+<div ng-controller="Controller">
+  Hello <input ng-model='customer.name'> <hr/>
+  <span ng-bind="name"></span> <br/>
+  <span ng:bind="name"></span> <br/>
+  <span ng_bind="name"></span> <br/>
+  <span data-ng-bind="name"></span> <br/>
+  <span x-ng-bind="name"></span> <br/>
+</div>
+<button name="giggle" value="animations">I animate</button>
+
+<div ng-controller="AboutMeCtrl">
+    <section class="slice" id="about">
+        <div class="container">
+                <div class="col-xs-12">
+                    <h1>About Me</h1>
+                    <h2 class="subTitle">I'm a Jr Softwear developer with a passoin for new technologies.
+                        I enjoy solving technical problems, synchronizing ideas, and team building. </h2>
+                        {{customer.name}}
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4 nekoAnim-invisible nekoAnim-animated nekoAnim-fadeIn nekoAnim-visible" data-nekoanim="fadeIn" data-nekodelay="300" style="animation-delay: 300ms; -webkit-animation-delay: 300ms;">
+                    <img src="http://phillipwright.me/Webdeveloper.jpg" alt="services" class="img-responsive">
+                </div>
+                <div class="col-sm-4 nekoAnim-invisible nekoAnim-animated nekoAnim-fadeInRightBig nekoAnim-visible" data-nekoanim="fadeInRightBig" data-nekodelay="200" style="animation-delay: 200ms; -webkit-animation-delay: 200ms;">
+                    <h2>.</h2>
+                </div>
+
+                <div class="col-sm-4 nekoAnim-invisible nekoAnim-animated nekoAnim-fadeInRightBig nekoAnim-visible" data-nekoanim="fadeInRightBig" data-nekodelay="400" style="animation-delay: 400ms; -webkit-animation-delay: 400ms;">
+
+                    <h3>Away from the computer.</h3>
+                    <p>When I am away from my-0=
+                        computer i enjoy doing just about anything that
+                        helps me work up a sweat I believe in keeping blood flowing
+                        through my brain, it keeps me sharp.
+                        From sports to walking my 3 dogs or even
+                        mowing (my) grass. Whatever it takes to keep my mind running
+                        at top speed.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<div>
+
+<div ng-controller="picFlipper" >
+{{person.name}}
+
+<section>
+    <div class="col-lg-12">
+        <h1>Portfolio</h1>
+    </div>
+    <div class="row">
+
+        <dochack-app class="col-md-4 col-md-offset-2"></dochack-app>
+        <p class="col-md-4" style="margin-top: 50px">My team and i built this project for a code-a-thon, using
+            BetterDoctors API, Ubers API and the Ionic framework. This User friendly, hybrid app
+            will take you from wherever it is you decide to get injured, to the hospital of your choice
+            with only one a couple simple clicks of a button. Oh and don't worry about calling an
+            ambulance and spending $2.000 dollars on a ride, this app will call you a ride in a
+            comfortable/clean car with AC and good music, and save you about $1.956 dollars.
+            (Hope you enjoy)  </p>
+    </div>
+    <div class="row">
+        <img src="Fynder.jpg" alt="finderApp" class="col-md-4 col-md-offset-2">
+            <p class="col-md-4" style="margin-top: 50px margin-bottom: 50px"> This light-weight hybrid app was created at an
+                all-night hack-a-thon. Its main purpose is to help find your car after a long day at the
+                mall in a crowded parking lot. Using Toyota's API, and Google-Maps API to send and receive
+                information back and forth to give crisp and direct turn by turn navigation from your phone
+                to your vehicle leaving you without worries of either, approaching the wrong vehicle
+                ( which can turn out to be very dangerous ), or just walking a mile and a half to the
+                other side of the mall parking-lot because men don't need to get directions from anyone
+                ( we never learn) Hope you find it useful.</p>
+        </div>
+    <div class="row">
+        <div>
+            <img src="puffinDrop.jpg" alt="PuffinDrop" class="col-md-4 col-md-offset-2">
+            <p class="col-md-4" style="margin-top: 50px margin-bottom: 50px"> After bringing together the A-team at a
+                hack-a-thon, the team and I put together a simple, addictive and exciting game which 
+                can be played with one hand. Our target users are everyone from children to adults,
+                and most importantly puffin enthusiasts. We are proud of the simple and intuitive gameplay.
+                Have fun, let me know if it needs to be a little harder to get past. <br>
+                <a href="http://betabreakers.challengepost.com/submissions/29915-puffin-drop"> CLICK HERE TO PLAY! </a> </p>
+        </div>
+    </div>
+    <div class="row">
+            <img src="Apps12.jpg" alt="12Apps" class="col-md-4 col-md-offset-2">
+            <p class="col-md-4" style="margin-top: 50px margin-bottom: 50px"> Twas A night in Coding House and all through
+                the house, an awesome idea came from out of someones mouth. There was twelve days left
+                in our journey through Coding House when the bright idea came about to do something
+                special that was relevant to both web development and Christmas at the same time.
+                12 Apps Of Christmas is what we came up with. Everyone had a different simple idea
+                that they wated to turn into a small app that could be done in a day. There are all
+                kinds of creative apps in this article.( I hope you find a couple of them useful. )<br>
+                <a href="http://blog.codinghouse.co/12-apps-of-christmas-the-full-story/"></a> VIEW FULL STORY!!</p>
+        </div>
+  </section>
+</div>
+
+<div ng-controller="BlogCtrl">
+  <section class="slice" id="news">
+    <div class="container imgHover">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>Blog</h1>
+                <h2 class="subTitle"> Web Developer </h2>
+            </div>
+
+            <article class="col-sm-4 nekoAnim-invisible nekoAnim-animated nekoAnim-fadeInLeftBig nekoAnim-visible" data-nekoanim="fadeInLeftBig" data-nekodelay="100" style="animation-delay: 100ms; -webkit-animation-delay: 100ms;">
+
+                <section class="imgWrapper">
+                    <img src="http://prod.static.steelers.clubs.nfl.com/assets/images/community/Kids_Zone_Main_Photo.jpg" class="img-responsive" alt="news">
+                </section>
+
+                <div class="mediaHover" style="height: 240px;">
+                    <div class="mask" style="height: 240px; width: 360px; margin-top: 240px; display: block;"></div>
+                    <div class="iconLinks" style="margin-top: 46.5px; display: block;">
+
+                        <a href="http://prod.static.steelers.clubs.nfl.com/assets/images/community/Kids_Zone_Main_Photo.jpg" class="image-link animated flipOutX" title="Zoom"><i class="icon-search iconRounded iconBig"></i><span>zoom</span></a>
+                    </div>
+                </div>
+                <section class="newsText color4">
+                    <h3>Knowledge for the youth</h3>
+                    <h4 class="date">September 16</h4>
+                    <p>Developing an app to teach the youth the fundamentals of football.</p>
+                    <a href="blog1.html" class="portfolioSheet moreLink btn btn-sm"><i class="icon-right-open-mini"></i>read more</a>
+                </section>
+
+            </article>
+
+
+            <article class="col-sm-4 nekoAnim-invisible nekoAnim-animated nekoAnim-fadeInUp nekoAnim-visible" data-nekoanim="fadeInUp" data-nekodelay="200" style="animation-delay: 200ms; -webkit-animation-delay: 200ms;">
+                <section class="imgWrapper">
+                    <img src="http://upload.wikimedia.org/wikipedia/commons/e/e4/Source_code_in_Javascript.png" class="img-responsive" alt="snowflake template image news">
+                </section>
+                <div class="mediaHover" style="height: 225px;">
+                    <div class="mask" style="height: 225px; width: 360px; margin-top: 225px; display: block;"></div>
+                    <div class="iconLinks" style="margin-top: 39px; display: block;">
+                        <a href="http://upload.wikimedia.org/wikipedia/commons/e/e4/Source_code_in_Javascript.png" class="image-link animated flipOutX" title="Zoom"><i class="icon-search iconRounded iconBig"></i><span>zoom</span></a>
+                    </div>
+                </div>
+                <section class="newsText color4">
+                    <h3>JavaScript.. The Ugly!</h3>
+                    <h4 class="date">September 1</h4>
+                    <p>Fundamental break-downs. Part 1. My intention
+                        is to share some of my thoughts on these couple of topics,
+                        and to hopefully encourage people to better understand.</p>
+                    <a href="blog2.html" class=" portfolioSheet moreLink btn btn-sm"><i class="icon-right-open-mini "></i>read more</a>
+                </section>
+            </article>
+            <article class="col-sm-4 nekoAnim-invisible nekoAnim-animated nekoAnim-fadeInRightBig nekoAnim-visible" data-nekoanim="fadeInRightBig" data-nekodelay="300" style="animation-delay: 300ms; -webkit-animation-delay: 300ms;">
+                <section class="imgWrapper"> 
+                    <img src="../files/images/news/blog3.JPG" class="img-responsive" alt="half dome">
+                </section>
+                <div class="mediaHover" style="height: 269px;">
+                    <div class="mask" style="height: 269px; width: 360px; margin-top: 269px; display: block;"></div>
+                    <div class="iconLinks" style="margin-top: 60.5px; display: block;"> 
+                        <a href="../files/images/news/blog3.JPG" class="image-link animated flipOutX" title="Zoom"><i class="icon-search iconRounded iconBig"></i><span>zoom</span></a>
+                    </div>
+                </div>
+                <section class="newsText color4">
+                    <h3>Coding House!</h3>
+                    <h4 class="date">June 23</h4>
+                    <p>I didn't know what to expect coming into this program.
+                        Now that i'm here i realize it is one of the best decisions I have ever made.</p>
+                    <a href="blog3.html" class="portfolioSheet moreLink btn btn-sm"><i class="icon-right-open-mini"></i>read more</a>
+                </section>
+            </article>
+            <article class="col-sm-4 nekoAnim-invisible nekoAnim-animated nekoAnim-fadeInUp nekoAnim-visible" data-nekoanim="fadeInUp" data-nekodelay="200" style="animation-delay: 200ms; -webkit-animation-delay: 200ms;">
+                <section class="imgWrapper">
+                    <img src="http://images.wisegeek.com/dental-needle.jpg" class="img-responsive" alt="snowflake template image news">
+                </section>
+                <div class="mediaHover" style="height: 240px;">
+                    <div class="mask" style="height: 240px; width: 360px; margin-top: 240px; display: block;"></div>
+                    <div class="iconLinks" style="margin-top: 46.5px; display: block;">
+                        <a href="http://images.wisegeek.com/dental-needle.jpg" class="image-link animated flipOutX" title="Zoom"><i class="icon-search iconRounded iconBig"></i><span>zoom</span></a>
+                    </div>
+                </div>
+                <section class="newsText color4">
+                    <h3>Dependency Injection</h3>
+                    <h4 class="date">September 1</h4>
+                    <p>Angular has more than just a few, and
+                       this is just one of many( Tip of the iceberg )
+                       but a big chunck to say the least.</p>
+                    <a href="blog4.html" class=" portfolioSheet moreLink btn btn-sm"><i class="icon-right-open-mini "></i>read more</a>
+                </section>
+            </article>
+            <article class="col-sm-4 nekoAnim-invisible nekoAnim-animated nekoAnim-fadeInUp nekoAnim-visible" data-nekoanim="fadeInUp" data-nekodelay="200" style="animation-delay: 200ms; -webkit-animation-delay: 200ms;">
+                <section class="imgWrapper">
+                    <img src="http://us.123rf.com/400wm/400/400/lightwise/lightwise1107/lightwise110700002/9979398-human-intelligence-and-brain-function-represented-by-gears-and-cogs-in-the-shape-of-a-head-represent.jpg" class="img-responsive" alt="snowflake template image news">
+                </section>
+                <div class="mediaHover" style="height: 372px;">
+                    <div class="mask" style="height: 372px; width: 360px; margin-top: 372px; display: block;"></div>
+                    <div class="iconLinks" style="margin-top: 112.5px; display: block;">
+                        <a href="http://us.123rf.com/400wm/400/400/lightwise/lightwise1107/lightwise110700002/9979398-human-intelligence-and-brain-function-represented-by-gears-and-cogs-in-the-shape-of-a-head-represent.jpg" class="image-link animated flipOutX" title="Zoom"><i class="icon-search iconRounded iconBig"></i><span>zoom</span></a>
+                    </div>
+                </div>
+                <section class="newsText color4">
+                    <h3>Javascript Functions!</h3>
+                    <h4 class="date">October 1</h4>
+                    <p>A JavaScript function is a "canned" block of code designed to perform a particular task.
+                        A function is executed when "something" invokes it (calls it).</p>
+                    <a href="blog5.html" class=" portfolioSheet moreLink btn btn-sm"><i class="icon-right-open-mini "></i>read more</a>
+                </section>
+            </article>
+        </div>
+    </div>
+</section>
+    
+</div>
+</div>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="lib/angular/angular.js"></script>
+<script type="text/javascript" src="/js/app.js"></script>
+</body>
+</html>
+</html>
